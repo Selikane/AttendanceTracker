@@ -1,0 +1,8 @@
+{
+  "name": "attendance-tracker",
+  "private": true,
+  "scripts": {
+    "build:frontend": "cd attendance-frontend && npm install && npm run build",
+    "start": "cd attendance-backend && node index.js"
+  }
+}

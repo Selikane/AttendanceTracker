@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: attendance-tracker
+    env: node
+    region: oregon
+    buildCommand: npm run build:frontend && cd attendance-backend && npm install
+    startCommand: npm start
+    plan: free
+    autoDeploy: true
+    envVars:
+      NODE_VERSION: "20"
+      NODE_ENV: "production"
