@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import AttendanceForm from './AttendanceForm';
 import AttendanceDashboard from './AttendanceDashboard';
 import './App.css';
