@@ -1,8 +1,1 @@
-{
-  "name": "attendance-tracker",
-  "private": true,
-  "scripts": {
-    "build:frontend": "cd frontend && npm install && npm run build",
-    "start": "cd backend && node index.js"
-  }
-}
+{"name":"attendance-tracker","version":"1.0.0","main":"server.js","scripts":{"start":"node server.js"},"dependencies":{"express":"^4.21.2"}}
