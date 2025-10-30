@@ -3,7 +3,7 @@ services:
     name: attendance-tracker
     env: node
     region: oregon
-    buildCommand: npm run build:frontend && cd attendance-backend && npm install
+    buildCommand: npm run build:frontend && cd backend && npm install
     startCommand: npm start
     plan: free
     autoDeploy: true
